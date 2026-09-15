@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Student Information</title>
+</head>
+
+<body>
+
+    <!-- College and Student Name -->
+    <h1>Government College of Engineering and Technology, Jammu</h1>
+    <h2>Student Name: Anmol</h2>
+
+    <!-- Introduction -->
+    <h3>About Me</h3>
+    <p>
+        Hello! My name is Anmol. I am a B.Tech Computer Science student.
+        I am interested in programming, web development and learning new
+        technologies.
+    </p>
+
+    <!-- Image -->
+    <h3>Image</h3>
+    <img src = "1000059846.jpg" width="300">
+
+    <!-- Hyperlinks -->
+    <h3>Useful Links</h3>
+    <a href="https://www.google.com">Google</a>
+    <br>
+    <a href="https://www.github.com">GitHub</a>
+
+    <!-- Educational Qualifications -->
+    <h3>Educational Qualifications</h3>
+    <ol>
+        <li>10th Class</li>
+        <li>12th Class</li>
+        <li>B.Tech Computer Science</li>
+    </ol>
+
+    <!-- Hobbies / Skills -->
+    <h3>Hobbies and Skills</h3>
+    <ul>
+        <li>listening music</li>
+        <li>Web Development</li>
+        <li>Photography</li>
+        <li>cooking</li>
+    </ul>
+
+    <!-- Semester Marks -->
+    <h3>Semester Marks</h3>
+
+    <table border="1">
+        <tr>
+            <th>Subject</th>
+            <th>Marks</th>
+        </tr>
+
+        <tr>
+            <td>Mathematics</td>
+            <td>85</td>
+        </tr>
+
+        <tr>
+            <td>Programming</td>
+            <td>90</td>
+        </tr>
+
+        <tr>
+            <td>Physics</td>
+            <td>80</td>
+        </tr>
+
+        <tr>
+            <td>English</td>
+            <td>75</td>
+        </tr>
+    </table>
+
+    <!-- Weekly Timetable -->
+    
+    <h2><center>Weekly Time Table</center></h2>
+
+    <table border="1">
+        <tr>
+            <th>Day</th>
+            <th>9:00 - 10:00</th>
+            <th>10:00 - 11:00</th>
+            <th>11:00 - 12:00</th>
+            <th>12:00 - 1:00</th>
+            <th>1:00 - 2:00</th>
+            <th>2:00 - 3:00</th>
+            <th>3:00 - 4:00</th>
+            <th>4:00 - 5:00</th>
+        </tr>
+
+        <tr>
+            <td>Monday</td>
+            <td>DSD</td>
+            <td>WEB TECH </td>
+            <td>ENTP
+                <hr>
+                DSD
+            </td>
+            <td>OOPS C++</td>
+            <td rowspan="5" class="break"; align="center">
+                 B<br>
+                R<br>
+                E<br>
+                A<br>
+                K<br>
+            </td>
+            <td>MATHS</td>
+            <td colspan="2">
+                DSD LAB
+                <hr>
+            career counselling
+            </td>
+        </tr>
+
+        <tr>
+            <td>Tuesday</td>
+            <td>ENTP</td>
+            <td>WEB TECH</td>
+            <td>DSD</td>
+            <td>MATHS</td>
+            </td>OOPS LAB</td>
+            <td colspan="3"; align="center">
+                OOPS LAB G1
+                <hr>
+                WEB TECH G2
+            </td>
+        </tr>
+
+        <tr>
+            <td>Wednesday</td>
+            <td>MOOC</td>
+            <td>OOPS C++</td>
+            <td>DSD</td>
+            <td>ENTP</td>
+            <td colspan="3"; align="center">
+                WEB TECH G1
+                <hr>
+               OOPS LAB G2
+            </td>
+        </tr>
+
+        <tr>
+            <td>Thursday</td>
+            <td>Maths
+                <hr>
+                ENTP
+            </td>
+            <td>CYBER ETHICS</td>
+            <td>WEB TECH</td>
+            <td>OOPS C++</td>
+            <td>ENTP</td>
+            <td colspan="2">
+                DSD LAB
+                <hr>
+            career counselling
+        </tr>
+
+        <tr>
+            <td>Friday</td>
+            <td>OOPS C++
+                <hr>
+                web tech
+            </td>
+            <td>Maths</td>
+            <td>CYBER ETHICS</td>
+            <td>WEB TECH
+                <hr>
+                maths
+            </td>
+            <td>DSD
+                <hr>
+                oops c++
+            </td>
+        <td>departmental activities</td>
+         <td>library</td> 
+        </tr>
+    </table>
+
+
+    <!-- Student Registration Form -->
+    <h3>Student Registration Form</h3>
+
+    <form action="http://127.0.0.1:5500/page.html">
+            <label>Name:</label>
+        <input type="text" required name="name">
+        <br><br>
+
+        <label>Email:</label>
+        <input type="email" required name="email">
+        <br><br>
+
+        <label>Date of Birth:</label>
+        <input type="date" name="dob">
+        <br><br>
+
+        <label>Mobile Number:</label>
+        <input type="tel" required  name="mobile">
+        <br><br>
+
+        <label>Gender:</label>
+
+        <input type="radio" name="gender" value="male">
+        Male
+
+        <input type="radio" name="gender" value="female">
+        Female
+
+        <br><br>
+
+        <label>Course:</label>
+
+        <select name="course">
+            <option>B.Tech CSE</option>
+            <option>B.Tech ECE</option>
+            <option>B.Tech Civil</option>
+            <option>B.Tech Mechanical</option>
+        </select>
+
+        <br><br>
+
+        <label>Hobbies:</label>
+
+        <input type="checkbox" name="hobby" value="coding">
+        Coding
+
+        <input type="checkbox" name="hobby" value="music">
+        Music
+
+        <input type="checkbox" name="hobby" value="sports">
+        Sports
+
+        <br><br>
+
+        <label>Address:</label>
+        <br>
+        <textarea name="address" rows="4" cols="30"></textarea>
+
+        <br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+</body>
+</html>
